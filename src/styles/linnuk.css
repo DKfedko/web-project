@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+nav {
+    background: #315243;
+    padding: 1.2rem;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: #2b4238;
+    border-radius: 10px;
+}
+
+.about{
+padding: 100px;
+margin-top: 50px;
+margin-left: 50px;
+width:650px;
+}
