@@ -1,16 +1,23 @@
 body {
   margin: 0;
 }
+
 nav {
     background: #315243;
-    padding: 1.2rem;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top:0px;
+
 }
 nav ul {
+    height: 100%;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 nav ul li a {
@@ -25,14 +32,34 @@ nav ul li a:hover {
     border-radius: 10px;
 }
 
-.about{
-border: 2px solid black;
-padding: 100px;
-margin-top: 30px;
-margin-left: -100px;
-width:650px;
+.product{
+display: flex;
+gap: 60px;
+align-items: stretch;
+margin-top: 60px;
 }
+
+.about{
+width: 800px;
+flex: 1;
+border: 2px solid black;
+
+padding: 40px;
+}
+
 .about-text{
 
+}
+
+.main-picture{
+width: 650px;
+object-fit: cover;
+display: block;
+}
+
+.main-pic{
+width: 100%;
+height: auto;
+display: block;
 
 }
